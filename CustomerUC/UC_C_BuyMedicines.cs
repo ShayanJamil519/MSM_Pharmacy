@@ -33,6 +33,8 @@ namespace PharmacyManagementSystem.CustomerUC
             {
                 listBoxMedicines.Items.Add(ds.Tables[0].Rows[i][0].ToString());
             }
+//             ---------------------------------
+// -----------------------------
         }
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
